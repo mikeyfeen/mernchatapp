@@ -1,0 +1,22 @@
+.chat-bubble {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 6px;
+    display: inline-block;
+    max-width: 80%;
+    min-width: 5%;
+    max-height: 55px;
+    word-wrap: break-word;
+}
+
+.chat-bubble--me {
+    background-color: #646cff;
+    color: white;
+}
+
+.chat-bubble--other {
+    background-color: #1ad117;
+    color: black;
+}
